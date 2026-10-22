@@ -1,0 +1,275 @@
+
+# PPT: US Healthcare Basics & Medical Policy
+
+## Slide 1 — Title
+
+US Healthcare Basics & Medical Policy
+
+* Medical Coding
+
+* Healthcare Billing
+
+* Medical Policies & Rules Engine
+
+Team Knowledge Sharing
+
+## Slide 2 — US Healthcare Insurance
+
+* Healthcare insurance helps cover eligible medical expenses.
+
+* Medicare: Mainly for people aged 65 and older, and certain younger people who qualify.
+
+* Medicaid: Provides coverage to eligible people based on program rules.
+
+* Insurance plans have different coverage and payment rules.
+
+Example: A patient visits a doctor for knee pain. The insurance plan's rules help determine how the claim is processed.
+
+## Slide 3 — Medical Codes
+
+Medical codes help identify diagnoses, procedures, services, equipment, and certain medicines.
+
+ICD-10-CM
+
+Identifies the patient's diagnosis or medical condition.
+
+Example: The documented reason for a visit is knee pain.
+
+CPT
+
+Describes procedures and professional medical services.
+
+Example: A doctor performs an examination.
+
+HCPCS Level II
+
+Identifies certain equipment, supplies, services, and drugs.
+
+Example: A wheelchair or certain injectable medicines.
+
+## Slide 4 — J-Codes & Add-On Codes
+
+J-Codes
+
+* A category of HCPCS Level II codes.
+
+* Used for certain drugs administered in medical settings.
+
+* The exact code depends on the drug and coding requirements.
+
+Add-On Codes
+
+* Describe additional services performed along with a primary service.
+
+* Must be reported with the required primary code.
+
+* Cannot normally be reported alone.
+
+Example: A patient receives an eligible medical procedure and an additional service. An add-on code may be used when the coding rules allow it.
+
+## Slide 5 — E/M Services
+
+E/M = Evaluation and Management
+
+* Used for services where a healthcare provider evaluates a patient's condition and decides how to manage it.
+
+* Includes many office visits and hospital visits.
+
+* The reported code must match the service and documentation.
+
+Example:
+
+1. A patient visits a doctor for knee pain.
+
+2. The doctor asks about symptoms.
+
+3. The doctor examines the patient.
+
+4. The doctor decides whether treatment or further testing is needed.
+
+## Slide 6 — New Patient vs Established Patient
+
+| New Patient                                                                                                                                        | Established Patient                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Generally has not received a qualifying service from the same physician or same-specialty physician in the same group during the previous 3 years. | Generally has received a qualifying service within the previous 3 years. |
+
+Example:
+
+* First qualifying visit: May be classified as a new-patient visit.
+
+* Return visit within the relevant period: May be classified as an established-patient visit.
+
+The exact classification depends on applicable coding guidelines.
+
+## Slide 7 — Level of Service (LOS)
+
+* LOS refers to the level of service reported under applicable coding rules.
+
+* Different services involve different levels of medical work and decision-making.
+
+* Documentation and coding requirements help determine the correct level.
+
+* Time alone does not determine the correct level in every case.
+
+Example:
+
+* A simple service, such as collecting a blood sample.
+
+* A more complex visit involving several medical problems.
+
+The reported service level must be supported by the applicable coding guidelines and documentation.
+
+## Slide 8 — Healthcare Claim Forms
+
+CMS-1500
+
+* Generally used for professional healthcare claims.
+
+* Commonly used by doctors and eligible healthcare professionals.
+
+* Example: A doctor's office submits a claim for an examination.
+
+UB-04 (CMS-1450)
+
+* Generally used for institutional healthcare claims.
+
+* Commonly used by hospitals and other facilities.
+
+* Example: A hospital submits a claim for facility services.
+
+Key Difference: CMS-1500 is generally for professional claims, while UB-04 is generally for institutional claims.
+
+## Slide 9 — Revenue Codes, POS & Modifiers
+
+Revenue Codes
+
+* Mainly used on institutional claims.
+
+* Categorize facility services or charges.
+
+* Example: A hospital reports a category of laboratory service.
+
+POS — Place of Service
+
+| Code | Meaning                                   |
+| ---- | ----------------------------------------- |
+| 11   | Office                                    |
+| 12   | Home                                      |
+| 02   | Telehealth, other than the patient's home |
+| 21   | Inpatient hospital                        |
+
+Modifiers
+
+* Add extra information to a procedure code.
+
+* RT — Right side
+
+* LT — Left side
+
+* 50 — Bilateral procedure, when applicable
+
+Example: A doctor examines a patient's right knee. The claim includes the applicable procedure code and modifier, if required.
+
+## Slide 10 — Medical Policy
+
+What is a Medical Policy?
+
+A medical policy contains requirements used to evaluate healthcare services for coverage or payment.
+
+Why is it used?
+
+* To check applicable coverage requirements.
+
+* To evaluate medical necessity or documentation where required.
+
+* To support consistent claim processing.
+
+Policy Categories in Our Notes
+
+* Cotiviti Global: Broader policy requirements, depending on the internal setup.
+
+* Specialty: Rules related to a specific medical specialty or service area.
+
+* HPP (Health Plan Policy): Requirements associated with a particular health plan.
+
+Example: A health plan may require specific documentation before a procedure is covered.
+
+## Slide 11 — Rules Engine & Decision Points
+
+Rule
+
+* A statement of logic used to check a requirement.
+
+* Usually contains a condition and an action.
+
+Example: If required documentation is missing, flag the claim for review.
+
+Decision Point (DP)
+
+- A point in the policy structure where related decisions or rules are organised.
+
+Rule Version
+
+* A particular version of a rule.
+
+* Helps manage updates to rule logic over time.
+
+Subrule
+
+- A more specific part of a rule's logic, depending on the internal system.
+
+## Slide 12 — Medical Policy Workflow
+
+1. Client Requirements — Understand what the client needs.
+
+2. Policy / Decision Point — Identify where the requirement belongs.
+
+3. Rule Development — Define the conditions and logic.
+
+4. Configuration — Set up the rule in the system.
+
+5. Testing & Review — Check whether the rule works as expected.
+
+6. Production — Release the approved rule for use.
+
+Actual workflow and approval timelines depend on the team's process.
+
+## Slide 13 — End-to-End Healthcare Example
+
+Scenario: A patient visits a doctor for knee pain.
+
+1. Diagnosis
+
+ICD-10-CM identifies the documented medical condition.
+
+2. Medical Service
+
+CPT identifies the examination or procedure performed.
+
+3. Claim Submission
+
+The provider submits the appropriate claim with relevant details.
+
+4. Policy & Rules Check
+
+The applicable rules evaluate the relevant claim information and requirements.
+
+## Slide 14 — Key Takeaways
+
+* Medical codes identify diagnoses, services, and other healthcare items.
+
+* Claim forms carry information to the payer.
+
+* Revenue codes, POS, and modifiers provide additional billing details.
+
+* Medical policies define applicable requirements.
+
+* Rules help apply those requirements consistently.
+
+* All these elements work together in healthcare claim processing.
+
+Thank You!
+
+Questions?
+
+My suggestion: Keep the PPT to these 14 slides, use a clean blue-and-white theme, and avoid putting your full speaking script on the slides. Use the longer script from our previous message while presenting.
