@@ -20,7 +20,9 @@ The patient is the person who receives treatment. The provider is the doctor or 
 
 For example, imagine a patient visits a hospital because of a high fever. The doctor examines the patient, and the hospital sends a claim to the insurance company. The insurance company checks the claim and processes it according to the applicable coverage and payment rules.
 
-We also have Medicare and Medicaid. Medicare mainly covers people aged 65 and older, along with certain younger people who qualify. Medicaid provides coverage to eligible people based on program rules.
+We also have Medicare and Medicaid. Medicare mainly covers people aged 65 and older, along with certain younger people who qualify under specific disability.
+
+Medicaid provides coverage to eligible people based on federal and state program rules.eligibility can depend on income , age, disability 
 
 So, the important thing to understand is that the insurance plan and its rules affect how a healthcare claim is processed.”
 
@@ -96,17 +98,19 @@ We should always follow the applicable coding guidelines rather than deciding on
 
 # Slide 7 — LOS: Level of Service
 
-“Now let's discuss LOS, which means Level of Service in our training notes.
+Meaning: LOS means the level of medical service provided by a doctor. It depends on the applicable coding rules and the work involved in the visit.
 
-Different healthcare visits can involve different types and levels of medical work.
+LOS 1: Simple service.
 
-For example, one patient visits a doctor for a minor skin rash. Another patient visits the doctor with several medical problems that require more complex evaluation and decision-making.
+LOS 2: Low-complexity service.
 
-The reported level must be selected according to the applicable coding rules and the documentation.
+LOS 3: Moderate-complexity service.
 
-We cannot automatically assign a higher level just because the patient has a serious condition or the appointment takes longer.
+LOS 4: Higher-complexity service.
 
-The important point is that the reported level must be supported by the service provided and the applicable coding guidelines.”
+LOS 5: Very high-complexity service.
+
+Example: A patient visits a doctor for a simple skin rash. Another patient has multiple health problems that need detailed evaluation. The work involved may be different, so the reported service level may also differ.
 
 # Slide 8 — Healthcare Claim Forms: CMS-1500 and UB-04
 
@@ -160,12 +164,19 @@ The applicable medical policy helps identify which requirements need to be check
 
 In our training notes, we discussed three categories: Cotiviti Global, Specialty, and HPP.
 
-Cotiviti Global appears to refer to a broader policy category in our internal setup.
+1. Cotiviti Global appears to refer to a broader policy category in our internal setup.
 
-Specialty focuses on a particular medical specialty or service area.
+2. Specialty
 
-HPP stands for Health Plan Policy in our notes and relates to requirements associated with a particular health plan.
+Meaning: Rules related to a particular medical specialty or type of medical service.
 
+Example: A cardiology policy may contain requirements for evaluating a heart-related procedure. Those requirements may differ from the rules for an eye procedure.
+
+3. HPP (Health Plan Policy)
+
+Meaning: Rules or requirements set for a particular health insurance plan.
+
+Example: One health plan may require prior approval before covering an MRI scan. Another plan may have different requirements.
 The exact meaning and scope of these categories depend on our internal system.
 
 The main purpose of medical policies is to define the requirements used to evaluate healthcare services and support claim processing.”
